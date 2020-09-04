@@ -11,7 +11,7 @@ int main() {
 	std::cout << "Entrer un deuxieme nombre\n";
 	std::cin >> nbre2;
 
-	if (nbre1 < 0 or nbre2 < 0) {
+	if ((nbre1 < 0 or nbre2 < 0) and (nbre1 > 0 and nbre2 > 0)) {
 		std::cout << "le produit de " << nbre1 << " et " << nbre2 << " est negatif \n";
 	}
 	else {
