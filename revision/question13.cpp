@@ -5,27 +5,18 @@
 
 int main() {
 
-	int num = 0;
-	int grand = 0;
-	int pos = 0;
+	int chevaux = 0;
+	int chevauxJoue = 0;
 
-	//std::cin >> num;
+	std::cout << "Entrer le nombre de chevaux\n";
+	std::cin >> chevaux;
 
-	for (int i = 0; i < 20; i++)
-	{
-		std::cout << "Entrer un nombre n" << i+1 << "\n";
-		std::cin >> num;
+	std::cout << "Entrer le nombre de chevaux joue\n";
+	std::cin >> chevauxJoue;
 
-		if (i == 0) {
-			grand = num;
-			pos = i + 1;
-		}else if (num > grand) {
-			grand = num;
-			pos = i+1;
-		}
-	}
+	float chance = (float)chevauxJoue / (float)chevaux;
 
-	std::cout << "Le plus grand de ces nombres est le n" << pos << " le :" << grand;
+	std::cout << "Chance = " << chance*100 << "%";
 
 
 	return 0;
