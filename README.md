@@ -1,4 +1,4 @@
-# revisions
+﻿# revisions
 
 # Les variables
 ## question 1
@@ -41,6 +41,8 @@ Ecrire un programme qui demande l’âge d’un enfant à l’utilisateur. Ensui
 - "Cadet" après 12 ans
 
 Peut-on concevoir plusieurs algorithmes équivalents menant à ce résultat ?
+
+oui comme toujours .
 
 # Les boucles
 
